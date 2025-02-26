@@ -16,7 +16,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://workasana-frontend-v1.vercel.app",
+    origin: "https://workmanagement-frontend-v1.vercel.app",
     methods: ["POST", "GET", "PATCH", "PUT"],
     allowedHeaders: ["Content-Type", "Authorization", "Accept"],
     credentials: true,
